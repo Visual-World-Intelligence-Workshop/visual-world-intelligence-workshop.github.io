@@ -8,6 +8,8 @@ The expertise of the invited speakers spans world modeling, robotics, perception
 
 The panelists span perception and multimodal foundation models, world models, and robotics. Georgia Gkioxari, Akshara Rai, Terrance DeVries, Bill Peebles, and Jenny Seidenschwarz are confirmed. Full biographies and supplied OpenReview identifiers are preserved in `_data/speakers.yml` and `_data/panelists.yml`.
 
+Bill Peebles's biography uses the approved wording: “Bill Peebles is a former research scientist at OpenAI, where he headed Sora, OpenAI's video generation and world simulation effort.”
+
 ## Organizers
 
 The organizing team comprises academic and industrial researchers at different stages of their careers: Tim Rädsch, Adriana Romero-Soriano, Carsten Lüth, Zhang Xiaofeng, Michal Drozdzal, Ye Zhu, Nicolas Ballas, and Felix Friedrich. The team has experience organizing workshops and other events at CVPR, ICCV, ECCV, NeurIPS, ICLR, and FAccT, and a research record across multimodal foundation models, generative models, latent world models, perception, and benchmarking. Affiliations, email addresses, supplied OpenReview identifiers, and full biographies are preserved in `_data/organizers.yml`.
@@ -36,7 +38,7 @@ By bringing together researchers across visual understanding, generative modelin
 
 This proposal is for a full-day workshop with a standard venue setting: a room with presentation equipment and seating for participants. The workshop plans for paper submissions and requires a poster area for approximately 40 posters.
 
-The workshop will include invited and contributed talks, a panel, and a poster session. Talks will be followed by Q&A sessions, and poster sessions will ensure sufficient time for participant engagement while avoiding overlap with lunch. Before the poster session, authors will deliver 1–1.5 minute lightning pitches to highlight their work's key contributions.
+The workshop will include invited and contributed talks, a panel, and a poster session. Talks will be followed by Q&A sessions, and poster sessions will ensure sufficient time for participant engagement while avoiding overlap with lunch. Before the poster session, authors will deliver one-minute lightning pitches to highlight their work's key contributions.
 
 The panel will bring together industrial and academic leaders to discuss the scientific and engineering considerations of the path toward visual intelligence. Audience questions will guide the discussion.
 
@@ -46,7 +48,7 @@ We plan to release a report identifying recurring themes from talk Q&As, poster 
 
 Anticipated audience size: **100–300 people**.
 
-The tentative schedule is maintained in `_data/schedule.yml`. The supplied proposal leaves 10:30–11:00 unspecified; this slot is explicitly awaiting confirmation.
+The planned schedule is maintained in `_data/schedule.yml`. Poster lightning pitches run from 11:45 to 12:30, allowing approximately 40 one-minute presentations and five minutes for transitions.
 
 ## Paper submission
 

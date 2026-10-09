@@ -15,7 +15,7 @@ This site adapts the [Visual Intelligence Workshop website](https://github.com/V
 - `_pages/program.md`: schedule, participation, and planned outcomes.
 - `docs/workshop-proposal.md`: proposal material, including related workshops, diversity, outreach, and nominated reviewer.
 
-The proposal's 10:30–11:00 schedule gap is shown as **To be announced**. All speakers and panelists are presented as planned. Biographies are retained in the data files for reference and are not displayed on the website. No workshop acceptance, venue, date, paper template, or OpenReview submission URL has been assumed.
+The revised morning schedule has no gaps, with poster lightning pitches from 11:45 to 12:30. Each pitch is one minute, allowing approximately 40 presentations and five minutes for transitions. All speakers and panelists are presented as planned. Biographies are retained in the data files for reference and are not displayed on the website. No workshop acceptance, venue, date, paper template, or OpenReview submission URL has been assumed.
 
 ## Background images and portraits
 

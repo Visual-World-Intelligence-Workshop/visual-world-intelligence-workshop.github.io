@@ -10,6 +10,9 @@ Compared the workshop website and saved proposal material with the revised propo
 - Related workshops: restored the distinction between language/multimodal reasoning and vision-first generative/predictive models in the saved proposal.
 - Outreach: included the heidelberg.ai audience size of 3,000 members in the saved proposal.
 - Documentation: corrected an outdated statement that biographies and submission details were displayed publicly. Biographies stay hidden, and Call for Papers still says “Not released yet.”
+- Schedule: applied the revised morning times, removed the unused 10:30–11:00 placeholder, and expanded poster lightning pitches to 11:45–12:30.
+- Poster lightning pitches: set each presentation to one minute, allowing approximately 40 pitches and five minutes for transitions in the 45-minute slot.
+- Bill Peebles: approved the stored biography wording “a former research scientist at OpenAI, where he headed Sora,” making both roles clearly past roles.
 
 ## Details that agree
 
@@ -19,13 +22,10 @@ The planned submission policy remains four pages, single column, excluding refer
 
 ## Sections needing clarification
 
-| Section                  | Outstanding detail                                                                                                                                                                                                                            |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Schedule                 | 10:30–11:00 is absent from the proposal and shown as “To be announced” on the website.                                                                                                                                                        |
-| Poster lightning pitches | Approximately 40 pitches at 1–1.5 minutes each need 40–60 minutes plus transitions. The current 12:00–12:30 slot is only 30 minutes. A longer slot, shorter pitches, or fewer pitches is needed.                                              |
-| Bill Peebles biography   | “Former research scientist at OpenAI and the Head of Sora” leaves the timing unclear. If both roles are past roles, use “formerly headed Sora at OpenAI.” The website card already says “Formerly OpenAI / Sora,” and biographies are hidden. |
-| Workshop launch          | Acceptance, event date, venue, OpenReview URL, paper template, and final submission rules remain pending.                                                                                                                                     |
-| Affiliation logos        | The new affiliation logo artwork is still to be supplied. The old workshop's montage is not displayed.                                                                                                                                        |
+| Section           | Outstanding detail                                                                                        |
+| ----------------- | --------------------------------------------------------------------------------------------------------- |
+| Workshop launch   | Acceptance, event date, venue, OpenReview URL, paper template, and final submission rules remain pending. |
+| Affiliation logos | The new affiliation logo artwork is still to be supplied. The old workshop's montage is not displayed.    |
 
 ## Minor proposal copy edits
 

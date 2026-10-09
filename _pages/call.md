@@ -70,7 +70,7 @@ The OpenReview submission portal and paper template will be announced here.
 
 Each paper will be reviewed by **{{ site.data.workshop.submission.reviewers }} experienced reviewers**, with acceptance decisions made by the workshop program committee. All accepted papers will be presented as posters, and **{{ site.data.workshop.submission.contributed_talks }} papers** will be selected for contributed talks.
 
-Authors will also give **1–1.5 minute lightning pitches** before the poster session. Authors will have the option to share accepted papers, posters, and short presentation videos on the workshop website.
+Authors will also give **one-minute lightning pitches** before the poster session. Authors will have the option to share accepted papers, posters, and short presentation videos on the workshop website.
 
 ### Topics
 

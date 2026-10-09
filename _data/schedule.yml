@@ -4,17 +4,15 @@
   session: Keynote 1
 - time: "09:45–10:00"
   session: Contributed talk 1
-- time: "10:00–10:30"
+- time: "10:00–10:45"
   session: Coffee break
-- time: "10:30–11:00"
-  session: To be announced
-- time: "11:00–11:30"
+- time: "10:45–11:15"
   session: Keynote 2
-- time: "11:30–11:45"
+- time: "11:15–11:30"
   session: Contributed talk 2
-- time: "11:45–12:00"
+- time: "11:30–11:45"
   session: Contributed talk 3
-- time: "12:00–12:30"
+- time: "11:45–12:30"
   session: Poster lightning pitches
 - time: "12:30–13:30"
   session: Lunch break

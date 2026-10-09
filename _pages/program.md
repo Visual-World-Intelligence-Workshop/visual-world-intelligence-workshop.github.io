@@ -56,7 +56,7 @@ We plan a **full day workshop** with invited and contributed talks, Q&A sessions
   </tbody>
 </table>
 
-Times are local to the workshop venue. The 10:30–11:00 slot is awaiting confirmation.
+Times are local to the workshop venue.
 
 ### Planned Speakers
 
@@ -78,7 +78,7 @@ The panel brings together academic and industrial leaders to discuss the scienti
 
 ### Posters and Participation
 
-All accepted papers will be presented during the poster session, with four selected for contributed talks. Authors will give 1–1.5 minute lightning pitches to introduce their work. Poster sessions will provide time for discussion and engagement without overlapping lunch.
+All accepted papers will be presented during the poster session, with four selected for contributed talks. Authors will give one-minute lightning pitches to introduce their work. Poster sessions will provide time for discussion and engagement without overlapping lunch.
 
 Partial hybrid participation is planned to enable presentations and attendance by people unable to travel. A dedicated virtual session chair will moderate remote questions. Details on remote access will be announced.
 
