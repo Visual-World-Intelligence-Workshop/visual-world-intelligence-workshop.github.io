@@ -193,7 +193,7 @@ Our organizing team brings together academic and industrial researchers at diffe
 
 ### Participation
 
-We plan a full day of invited and contributed talks, a panel, poster lightning pitches, and a poster session. Partial hybrid participation is planned, with details to be announced. We welcome ongoing research, early ideas, and open questions.
+We plan a full day of invited and contributed talks, a panel, poster lightning pitches, and a poster session. The workshop will be held in person. We welcome ongoing research, early ideas, and open questions.
 
 {% if site.data.workshop.submission.released %}
 

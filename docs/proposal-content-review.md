@@ -13,10 +13,11 @@ Compared the workshop website and saved proposal material with the revised propo
 - Schedule: applied the revised morning times, removed the unused 10:30–11:00 placeholder, and expanded poster lightning pitches to 11:45–12:30.
 - Poster lightning pitches: set each presentation to one minute, allowing approximately 40 pitches and five minutes for transitions in the 45-minute slot.
 - Bill Peebles: approved the stored biography wording “a former research scientist at OpenAI, where he headed Sora,” making both roles clearly past roles.
+- Format: the workshop is now described as in person. The hybrid sessions, virtual chair, and travel-exception wording are omitted; online access to contributed materials remains planned.
 
 ## Details that agree
 
-The six topics, four speakers, five panelists, eight organizers, provided research roles and affiliations, organizer email addresses, nominated reviewer, 100–300 expected attendees, approximately 40 posters, hybrid participation plan, report plan, and existing schedule entries agree with the revised proposal. Affiliation names are shortened on profile cards, for example “Mila” and “AMI Labs.” Website links and supplied portraits remain as requested.
+The six topics, four speakers, five panelists, eight organizers, provided research roles and affiliations, organizer email addresses, nominated reviewer, 100–300 expected attendees, approximately 40 posters, report plan, and existing schedule entries agree with the revised proposal. The format follows the subsequently approved in-person wording. Affiliation names are shortened on profile cards, for example “Mila” and “AMI Labs.” Website links and supplied portraits remain as requested.
 
 The planned submission policy remains four pages, single column, excluding references; two to three reviews per paper; posters for accepted papers; and four contributed talks. The stored deadlines remain 1 February 2027 and 26 February 2027, both at 11:59 pm AoE. These details are retained for a later call for papers.
 

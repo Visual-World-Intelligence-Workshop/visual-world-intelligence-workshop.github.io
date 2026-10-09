@@ -80,7 +80,7 @@ The panel brings together academic and industrial leaders to discuss the scienti
 
 All accepted papers will be presented during the poster session, with four selected for contributed talks. Authors will give one-minute lightning pitches to introduce their work. Poster sessions will provide time for discussion and engagement without overlapping lunch.
 
-Partial hybrid participation is planned to enable presentations and attendance by people unable to travel. A dedicated virtual session chair will moderate remote questions. Details on remote access will be announced.
+The workshop will be held in person. Authors may share accepted papers, posters, and short presentation videos on the workshop website to support access beyond the event.
 
 We anticipate **100–300 participants** and approximately **40 posters**.
 

@@ -42,7 +42,7 @@ The workshop will include invited and contributed talks, a panel, and a poster s
 
 The panel will bring together industrial and academic leaders to discuss the scientific and engineering considerations of the path toward visual intelligence. Audience questions will guide the discussion.
 
-We envision a partially hybrid workshop, allowing some presentations and sessions to be held remotely to enable participation by those unable to physically attend. Authors will have the option to upload contributed content, including PDFs of accepted work, posters, and short presentation videos, to the website maintained by the co-organizers. A dedicated virtual session chair will moderate the remote chat and allow virtual attendees to ask questions. This will ensure access for those unable to attend in person and facilitate dissemination beyond the workshop day.
+The workshop will be held in person. Authors will have the option to share contributed content, including PDFs of accepted work, posters, and short presentation videos, on the website maintained by the co-organizers. This will provide access to workshop materials for those who cannot attend and facilitate dissemination beyond the workshop day.
 
 We plan to release a report identifying recurring themes from talk Q&As, poster presentations, and the panel, together with key open challenges and future research directions. The report will sustain broader community engagement, build collaborations, and extend the workshop's impact beyond the event.
 
@@ -51,6 +51,8 @@ Anticipated audience size: **100–300 people**.
 The planned schedule is maintained in `_data/schedule.yml`. Poster lightning pitches run from 11:45 to 12:30, allowing approximately 40 one-minute presentations and five minutes for transitions.
 
 ## Paper submission
+
+We will comply with ICLR 2027's workshop requirements. By 26 February 2027, 11:59 pm AoE, we will notify contributors, make accepted papers publicly available on OpenReview, and import them into iclr.cc. Organizers will recuse themselves from reviewing and deciding on conflicted submissions, including those from the same organization; an unconflicted committee member will oversee these decisions. Organizers will not give workshop talks, except brief introductory remarks, and may moderate the panel.
 
 We will set up an OpenReview platform for paper submission. Each paper will be reviewed by two to three experienced reviewers, and the workshop program committee will make acceptance decisions. All accepted papers will be presented during the poster session, and four will be selected for contributed talks.
 
