@@ -14,12 +14,13 @@ Compared the workshop website and saved proposal material with the revised propo
 - Poster lightning pitches: set each presentation to one minute, allowing approximately 40 pitches and five minutes for transitions in the 45-minute slot.
 - Bill Peebles: approved the stored biography wording “a former research scientist at OpenAI, where he headed Sora,” making both roles clearly past roles.
 - Format: the workshop is now described as in person. The hybrid sessions, virtual chair, and travel-exception wording are omitted; online access to contributed materials remains planned.
+- Paper lengths: submissions may be up to four pages, with an explicit invitation for one- or two-page tiny papers. The proposal and stored website guidelines require primarily human-authored submissions and permit AI assistance while excluding AI-generated papers.
 
 ## Details that agree
 
 The six topics, four speakers, five panelists, eight organizers, provided research roles and affiliations, organizer email addresses, nominated reviewer, 100–300 expected attendees, approximately 40 posters, report plan, and existing schedule entries agree with the revised proposal. The format follows the subsequently approved in-person wording. Affiliation names are shortened on profile cards, for example “Mila” and “AMI Labs.” Website links and supplied portraits remain as requested.
 
-The planned submission policy remains four pages, single column, excluding references; two to three reviews per paper; posters for accepted papers; and four contributed talks. The stored deadlines remain 1 February 2027 and 26 February 2027, both at 11:59 pm AoE. These details are retained for a later call for papers.
+The planned submission policy is up to four pages, single column, excluding references, including one- or two-page tiny papers; two to three reviews per paper; posters for accepted papers; and four contributed talks. The stored deadlines remain 1 February 2027 and 26 February 2027, both at 11:59 pm AoE. These details are retained for a later call for papers.
 
 ## Sections needing clarification
 

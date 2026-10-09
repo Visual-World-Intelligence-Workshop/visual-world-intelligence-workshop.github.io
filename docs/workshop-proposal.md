@@ -52,11 +52,13 @@ The planned schedule is maintained in `_data/schedule.yml`. Poster lightning pit
 
 ## Paper submission
 
-We will comply with ICLR 2027's workshop requirements. By 26 February 2027, 11:59 pm AoE, we will notify contributors, make accepted papers publicly available on OpenReview, and import them into iclr.cc. Organizers will recuse themselves from reviewing and deciding on conflicted submissions, including those from the same organization; an unconflicted committee member will oversee these decisions. Organizers will not give workshop talks, except brief introductory remarks, and may moderate the panel.
+We will comply with ICLR 2027's workshop requirements. We will adhere to ICLR 2027's participation limits: each organizer will be listed on no more than two workshop proposals and will disclose any other proposals they are helping organize; each speaker or panelist will be listed in no more than two distinct workshop proposals. By 26 February 2027, 11:59 pm AoE, we will notify contributors, make accepted papers publicly available on OpenReview, and import them into iclr.cc. Organizers will recuse themselves from reviewing and deciding on conflicted submissions, including those from the same organization; an unconflicted committee member will oversee these decisions. Organizers will not give workshop talks, except brief introductory remarks, and may moderate the panel.
 
 We will set up an OpenReview platform for paper submission. Each paper will be reviewed by two to three experienced reviewers, and the workshop program committee will make acceptance decisions. All accepted papers will be presented during the poster session, and four will be selected for contributed talks.
 
-We plan to solicit papers of four pages, single column, excluding references. We strongly encourage ongoing and novel work to promote discussion of emerging challenges, early ideas, and open research questions. Work presented at the workshop may also be submitted to another venue afterwards. Shorter versions of recently published work are welcome, while papers containing new or ongoing research will be prioritized for contributed talks.
+We welcome submissions of up to four pages (single column), excluding references, including tiny papers of one or two pages presenting early-stage ideas, concise results, follow-up experiments, or reanalyses. We strongly encourage ongoing and novel work to promote discussion of emerging challenges and open research questions. Work presented at the workshop may also be submitted to another venue afterwards. Shorter versions of recently published work are welcome, while papers containing new or ongoing research will be prioritized for contributed talks.
+
+Submissions must be primarily human-authored, reflecting original thought and analysis. AI assistance is permitted, but AI-generated papers are not allowed under ICLR's tiny/short-paper rules.
 
 - Paper submission deadline: **1 February 2027, 11:59 pm AoE**.
 - Acceptance notification: **26 February 2027, 11:59 pm AoE**.

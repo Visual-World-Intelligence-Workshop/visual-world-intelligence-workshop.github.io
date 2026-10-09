@@ -56,7 +56,9 @@ All deadlines are **Anywhere on Earth (AoE, UTC−12)**. Workshop date and venue
 
 ### Submission Guidelines
 
-Papers should be **{{ site.data.workshop.submission.pages }} pages, single column, excluding references**. We strongly encourage ongoing and novel work, early ideas, and open research questions that can contribute to discussion of emerging challenges.
+We welcome submissions of **up to {{ site.data.workshop.submission.pages }} pages, single column, excluding references**, including **tiny papers of one or two pages** presenting early-stage ideas, concise results, follow-up experiments, or reanalyses. We strongly encourage ongoing and novel work and open research questions that can contribute to discussion of emerging challenges.
+
+Submissions must be **primarily human-authored**, reflecting original thought and analysis. AI assistance is permitted, but AI-generated papers are not allowed under ICLR's tiny/short-paper rules.
 
 Shorter versions of recently published work are also welcome. Papers containing new or ongoing research will be prioritized for contributed talks. Work presented at the workshop may subsequently be submitted to another venue.
 
