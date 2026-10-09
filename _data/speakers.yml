@@ -1,0 +1,60 @@
+- name: Sherry Yang
+  affiliation: "NYU Courant / Google DeepMind"
+  url: "https://sherryy.github.io/"
+  img: "assets/img/sherry_yang.jpg"
+  status: planned
+  confirmed: true # Proposal confirmation; the public website displays "planned".
+  openreview: "~Sherry_Yang1"
+  bio: >-
+    Sherry Yang is an Assistant Professor at NYU Courant and a Staff Research Scientist at Google DeepMind.
+    Her research is in machine learning with a focus on reinforcement learning and generative modeling.
+    Recently, she is interested in problems at the intersection of foundation models and decision making,
+    such as learning world models and agents, and their applications in robotics and AI for science.
+    Prior to this, she was a postdoctoral researcher at Stanford working with Percy Liang.
+    Sherry obtained her Ph.D. from UC Berkeley advised by Pieter Abbeel, and her B.S. and M.Eng. from MIT.
+
+- name: Yuki Asano
+  affiliation: "University of Technology Nuremberg"
+  url: "https://yukimasano.github.io"
+  img: "assets/img/yuki_asano.jpg"
+  status: planned
+  confirmed: true # Proposal confirmation; the public website displays "planned".
+  openreview: "~Yuki_M_Asano1"
+  bio: >-
+    Yuki Asano is the head of the Fundamental AI (FunAI) Lab and full Professor at the University of
+    Technology Nuremberg. Prior to this, he led the QUVA lab at the University of Amsterdam, where he
+    closely collaborated with Qualcomm AI Research. He completed his Ph.D. at the Visual Geometry Group
+    (VGG) at the University of Oxford, where he worked with Andrea Vedaldi and Christian Rupprecht.
+
+- name: Lucas Beyer
+  affiliation: "Meta, Zürich"
+  url: "https://lucasb.eyer.be/"
+  img: "assets/img/lucas_beyer.jpg"
+  status: planned
+  confirmed: true # Updated proposal now confirms Lucas; public label stays "planned".
+  openreview: "~Lucas_Beyer1"
+  bio: >-
+    Lucas grew up in Belgium wanting to make video games and their AI. He went on to study mechanical
+    engineering at RWTH Aachen in Germany, where he also did a Ph.D. in robotic perception and computer
+    vision. He later joined Google Brain in Zürich, which became part of Google DeepMind, and then
+    helped start OpenAI's Zürich office. He is now at Meta in Zürich, where he continues to research
+    multimodal AI.
+
+- name: Olga Russakovsky
+  affiliation: "Princeton University"
+  url: "https://www.cs.princeton.edu/~olgarus/"
+  img: "assets/img/olga_russakovsky.jpg"
+  status: planned
+  confirmed: true # Proposal confirmation; the public website displays "planned".
+  openreview: "~Olga_Russakovsky1"
+  bio: >-
+    Olga Russakovsky is an Associate Professor in the Computer Science Department at Princeton
+    University. Her research is in computer vision, closely integrated with machine learning,
+    human-computer interaction, and fairness, accountability and transparency. She has been awarded
+    the PAMI Young Researcher Award, the NSF CAREER award, AnitaB.org's Emerging Leader Abie Award in
+    honor of Denice Denton, the CRA-WP Anita Borg Early Career Award, MIT Technology Review's
+    35-under-35 Innovator award, the PAMI Everingham Prize, and Foreign Policy Magazine's
+    100 Leading Global Thinkers award. She co-founded and continues to serve on the Board of Directors
+    of the AI4ALL nonprofit dedicated to increasing diversity and inclusion in AI. She completed her
+    Ph.D. at Stanford University and her postdoctoral fellowship at Carnegie Mellon University.
+    She served as program chair for ECCV 2024.

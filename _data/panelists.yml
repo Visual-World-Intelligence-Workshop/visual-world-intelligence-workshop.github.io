@@ -1,0 +1,71 @@
+- name: Georgia Gkioxari
+  affiliation: "Caltech"
+  url: "https://georgiagkioxari.com/"
+  img: "assets/img/georgia_gkioxari.jpg"
+  status: planned
+  openreview: "~Georgia_Gkioxari1"
+  bio: >-
+    Georgia Gkioxari is an Assistant Professor in the Computing & Mathematical Sciences department at
+    Caltech. Previously, she was a research scientist at Meta's FAIR team. She completed her Ph.D. at
+    UC Berkeley with Jitendra Malik and her undergraduate studies at NTUA, Greece, where she worked
+    with Petros Maragos. Georgia is a Packard Fellow (2025), the recipient of the PAMI Young Researcher
+    Award (2021), a Google Faculty Award (2024), the Okawa Research Award (2024), and the Amazon
+    Research Award (2024). Her teammates and she received the PAMI Mark Everingham Award (2021) for
+    the Detectron Library Suite. She was named one of 30 influential women advancing AI in 2019 by
+    ReWork and was nominated for the Women in AI Awards in 2020 by VentureBeat.
+
+- name: Akshara Rai
+  affiliation: "Versor"
+  url: "https://akshararai.github.io/"
+  img: "assets/img/akshara_rai.jpg"
+  status: planned
+  openreview: "~Akshara_Rai1"
+  bio: >-
+    Akshara Rai is a co-founder and Chief Scientist at Versor, tackling fundamental challenges in
+    robotics through real2sim2real. Previously, she was a research scientist at Meta AI, working at
+    the intersection of machine learning and control for robotics. Her research aims at teaching
+    robots to perform complex, novel tasks in very few trials, using simulators, physics-based models,
+    or demonstration data. Before joining Meta AI, she finished her Ph.D. at the Robotics Institute,
+    Carnegie Mellon University in 2018, working with Christopher G. Atkeson on utilizing simulations
+    to learn locomotion on bipedal robots.
+
+- name: Terrance DeVries
+  affiliation: "Luma AI"
+  url: "https://tdevries.github.io/"
+  img: "assets/img/terrance_devries.jpg"
+  status: planned
+  openreview: "~Terrance_DeVries1"
+  bio: >-
+    Terrance DeVries is a founding research scientist at Luma AI, where he works on advancing visual AI
+    and bringing new technologies into practical use. He has contributed to some of the earliest
+    applications of NeRF-based 3D capture, mobile neural rendering, 3D asset generation, and diffusion
+    transformer-based video generation. His recent work includes developing HDR video generation for
+    Luma AI's Ray3 model and exploring foundation models for robotics and spatial intelligence.
+    He received his Ph.D. from the University of Guelph, where he was advised by Graham Taylor.
+
+- name: Bill Peebles
+  affiliation: "Formerly OpenAI / Sora"
+  url: "https://www.wpeebles.com/"
+  img: "assets/img/bill_peebles.jpg"
+  status: planned
+  openreview: "~William_Peebles1"
+  bio: >-
+    Bill Peebles is a former research scientist at OpenAI, where he headed Sora, OpenAI's video
+    generation and world simulation effort. Previously, he completed his Ph.D. at Berkeley AI Research
+    advised by Alyosha Efros. Before that, he did his undergraduate studies at MIT, where he was advised
+    by Antonio Torralba. He has interned at FAIR, Adobe Research, and NVIDIA. During his Ph.D., he was
+    supported by the National Science Foundation's Graduate Research Fellowship Program.
+
+- name: Jenny Seidenschwarz
+  affiliation: "Odyssey"
+  url: "https://jennyseidenschwarz.github.io/"
+  img: "assets/img/jenny_seidenschwarz.jpg"
+  status: planned
+  openreview: "~Jenny_Seidenschwarz1"
+  bio: >-
+    Jenny Seidenschwarz is a Research Scientist at Odyssey, where she specializes in dynamic generative
+    world modeling for physical AI. Her research focuses on action-conditioned, multimodal world
+    modeling as well as multi-agent reinforcement learning. Recently, she is interested in in-the-loop
+    training of agents with world models and enhancing world models' underlying reasoning capabilities.
+    Prior to her current role, she completed her Ph.D. at TUM advised by Laura Leal-Taixé, with research
+    visits at CMU with Deva Ramanan and at NVIDIA.

@@ -1,0 +1,62 @@
+title: "Visual World Intelligence: Beyond Understanding and Generation"
+conference: "ICLR 2027"
+status: "Proposed workshop"
+date: "To be announced"
+venue: "To be announced"
+contact: "tim.raedsch@tum.de"
+submission:
+  released: false # Set to true when the call for papers is ready to publish.
+  url: "" # Add the workshop's OpenReview submission URL when available.
+  deadline: "1 February 2027, 11:59 pm AoE"
+  notification: "26 February 2027, 11:59 pm AoE"
+  pages: 4
+  reviewers: "2–3"
+  contributed_talks: 4
+backgrounds:
+  light: "" # Later: assets/img/background-light.jpg
+  dark: "assets/img/background-dark.jpg"
+abstract: >-
+  As large language models continue to demonstrate increasing capabilities across a broad variety
+  of domains, current foundation models still lack comparable visual world intelligence, limiting
+  their capacity to support the planning and forecasting abilities required to unlock the next
+  revolution in physical AI. With this workshop, we aim to bring together diverse perspectives
+  across academia and industry to discuss the path towards building visually and physically
+  intelligent foundation models. These paths span video reasoning, omnimodal models,
+  interleaved image-and-language generation, latent world models, or alternative paradigms.
+overview:
+  - >-
+    Visual world intelligence is an integrated faculty that allows us to perceive the world,
+    reason about what we see, imagine potential futures, and use these representations to guide
+    our actions. These capabilities are not isolated from one another; they are interconnected
+    components that took millions of years to evolve into a single unity.
+  - >-
+    Recent foundation models have driven massive progress in areas like text and coding,
+    demonstrating impressive capabilities and generalizability across tasks and domains.
+    Yet visual foundation models tackle problems separately, and performance in visual world
+    intelligence still lags far behind. For example, state-of-the-art video generation models
+    generate compelling content that often violates the rules that govern the physical world.
+    Vision-language models reason about visual content but struggle with fine-grained spatial
+    geometry and scene dynamics. Robotics systems often rely on task-specific representations
+    that fail to generalize across domains. To move beyond these fragmented paradigms, we must
+    re-evaluate how visual world intelligence is built. What representations are required to
+    generate physically grounded videos, reason over complex spatial dynamics, and enable
+    transferable robotic control simultaneously? And can solving these challenges result in
+    an analogous breakthrough to that of large language models for the visual world?
+  - >-
+    This workshop aims to address a fundamental question: Can a unified visual world intelligence
+    emerge directly from visual data, and how can we detect its arrival? Can unified systems that
+    jointly perceive scenes, generate plausible futures, reason, and control robotic actions
+    exhibit general capabilities that transcend those obtained by current task-specific visual
+    foundation models? Do these systems capture a unified visual representation that unlocks
+    new levels of generalization? Or is the future of visual world intelligence fundamentally
+    modular, requiring orchestration across specialized components?
+  - >-
+    A major difference in achieving visual and text intelligence lies in the nature of the data,
+    making the LLM analogy non-trivial. Unlike language, which has an abstract structure established
+    in a discrete symbolic system, the physical world, and our visual perception of it, is continuous
+    and governed by dynamic, causal, and spatial constraints. We currently lack the conceptual
+    frameworks to define unified visual world intelligence and the evaluation tools to measure it.
+  - >-
+    This workshop brings together researchers across perception, generative systems, latent world
+    modeling, spatial reasoning, and physical AI to stress-test existing paradigms, identify
+    fundamental challenges, and build the path toward true visual world intelligence in silico.

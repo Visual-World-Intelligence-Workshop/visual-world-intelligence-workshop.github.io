@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Run from your own terminal so gh can access your macOS GitHub credentials.
+workshop_org="Visual-World-Intelligence-Workshop"
+workshop_repo="visual-world-intelligence-workshop.github.io"
+workshop_target="${workshop_org}/${workshop_repo}"
+workshop_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+workshop_archive="${workshop_root}/output/github-pages-source.zip"
+
+command -v gh >/dev/null
+command -v git >/dev/null
+if [[ ! -f "$workshop_archive" ]]; then
+  echo "Missing source archive: $workshop_archive" >&2
+  exit 1
+fi
+
+gh api user --jq .login >/dev/null
+# GitHub requires workflow scope to upload an Actions workflow with an OAuth token.
+if ! gh auth status --hostname github.com 2>&1 | grep -q "'workflow'"; then
+  gh auth refresh --hostname github.com --scopes workflow
+fi
+
+if ! gh repo view "$workshop_target" --json nameWithOwner >/dev/null 2>&1; then
+  gh repo create "$workshop_target" --public \
+    --description "Visual World Intelligence: Beyond Understanding and Generation — ICLR 2027 workshop website"
+fi
+
+workshop_checkout="$(mktemp -d /private/tmp/workshop-github-publish.XXXXXX)"
+unzip -q "$workshop_archive" -d "$workshop_checkout"
+cd "$workshop_checkout"
+git init -b main
+if ! git config user.name >/dev/null; then
+  git config user.name "$(gh api user --jq .login)"
+fi
+if ! git config user.email >/dev/null; then
+  workshop_login="$(gh api user --jq .login)"
+  workshop_user_id="$(gh api user --jq .id)"
+  git config user.email "${workshop_user_id}+${workshop_login}@users.noreply.github.com"
+fi
+git add .
+git commit -m "Publish Visual World Intelligence workshop website"
+git remote add origin "https://github.com/${workshop_target}.git"
+git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push -u origin main
+
+if gh api "repos/${workshop_target}/pages" >/dev/null 2>&1; then
+  gh api --method PUT "repos/${workshop_target}/pages" -f build_type=workflow >/dev/null
+else
+  gh api --method POST "repos/${workshop_target}/pages" -f build_type=workflow >/dev/null
+fi
+
+echo
+echo "Uploaded source: https://github.com/${workshop_target}"
+echo "Pages is enabled. Follow deployment: https://github.com/${workshop_target}/actions"
+echo "Website address after deployment: https://visual-world-intelligence-workshop.github.io/"
+echo "Source checkout: ${workshop_checkout}"

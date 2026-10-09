@@ -1,0 +1,34 @@
+- time: "09:00–09:15"
+  session: Opening remarks
+- time: "09:15–09:45"
+  session: Keynote 1
+- time: "09:45–10:00"
+  session: Contributed talk 1
+- time: "10:00–10:30"
+  session: Coffee break
+- time: "10:30–11:00"
+  session: To be announced
+- time: "11:00–11:30"
+  session: Keynote 2
+- time: "11:30–11:45"
+  session: Contributed talk 2
+- time: "11:45–12:00"
+  session: Contributed talk 3
+- time: "12:00–12:30"
+  session: Poster lightning pitches
+- time: "12:30–13:30"
+  session: Lunch break
+- time: "13:30–14:00"
+  session: Keynote 3
+- time: "14:00–15:00"
+  session: Poster session
+- time: "15:00–15:30"
+  session: Coffee break
+- time: "15:30–16:00"
+  session: Keynote 4
+- time: "16:00–16:15"
+  session: Contributed talk 4
+- time: "16:15–17:00"
+  session: Panel
+- time: "17:00–17:10"
+  session: Closing remarks

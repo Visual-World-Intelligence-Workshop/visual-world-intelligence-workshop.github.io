@@ -1,0 +1,122 @@
+- name: "Tim Rädsch"
+  affiliation: "Technical University of Munich / Anates Labs"
+  url: "https://timraedsch.com"
+  img: "assets/img/tim_raedsch.jpg"
+  email: "tim.raedsch@tum.de"
+  openreview: "~Tim_Rädsch1"
+  bio: >-
+    Tim Rädsch is a postdoctoral-level researcher at the Technical University of Munich and co-founder
+    of Anates Labs. His work focuses on data-centric AI, visual intelligence, machine learning
+    evaluation, and trustworthy computer vision systems. He previously led a 25-person data engineering
+    team at understandAI, co-organized the community-wide ASAM OpenLABEL standard and the KiTS23
+    challenge, and now works on scalable evaluation and physical reasoning for generative video and
+    multimodal foundation models. His research has appeared at Nature Machine Intelligence,
+    Nature Methods, CVPR, ECCV, FAccT, and NeurIPS.
+
+- name: "Adriana Romero-Soriano"
+  affiliation: "Meta FAIR / McGill University / Mila"
+  url: "https://sites.google.com/site/adriromsor/home"
+  img: "assets/img/adri_soriano.jpg"
+  email: "adriana.romero-soriano@mila.quebec"
+  openreview: "~Adriana_Romero-Soriano1"
+  bio: >-
+    Adriana Romero-Soriano is a Research Scientist at Meta FAIR, an Adjunct Professor at McGill
+    University, a core industrial member of Mila, and the recipient of a Canada CIFAR AI Chair.
+    Her research sits at the intersection of computer vision, generative modeling, and representation
+    learning. Her work appears regularly in NeurIPS, ICLR, ICML, CVPR, and ICCV, and has gathered over
+    60k citations. Her contributions earned her recognition as an influential woman advancing AI in
+    2019 by ReWork. She has co-organized numerous workshops, including ReGenAI at CVPR (2024–2025) and
+    sessions on the Science and Engineering of Deep Learning and Graph Representation Learning at
+    NeurIPS and ICLR (2019, 2021). She earned her Ph.D. from the University of Barcelona under Carlo
+    Gatta, followed by a postdoctoral fellowship at Mila with Yoshua Bengio.
+
+- name: "Carsten Lüth"
+  affiliation: "Anates Labs"
+  url: "https://sten2lu.github.io"
+  img: "assets/img/carst_luth.jpg"
+  email: "carsten@anates.ai"
+  openreview: "~Carsten_T._Lüth1"
+  bio: >-
+    Carsten Lüth is a machine learning researcher specializing in evaluation methodology and empirical
+    rigor for deep learning systems, currently focusing on generative video and world models. During
+    his Ph.D., he identified and addressed systematic evaluation flaws across active learning,
+    uncertainty estimation, and selective classification for vision tasks. He built the largest
+    empirical active learning benchmark for 3D biomedical image segmentation (150k GPU hours).
+    He has published 10 papers at top venues, including two ICLR Orals, a NeurIPS Spotlight, a MICCAI
+    STAR Award, and a CVPR Highlight as last author, with 800+ personal citations. He was a core
+    maintainer of nnU-Net (8k+ GitHub stars) and a leading organizer of heidelberg.ai (3,000+ members),
+    one of Germany's largest AI communities, hosting speakers including creators of AlphaFold,
+    Stable Diffusion, and leading European LLMs.
+
+- name: "Zhang Xiaofeng"
+  affiliation: "Mila / Université de Montréal"
+  url: "https://zhang-guigui.github.io/"
+  img: "assets/img/zhang_xiaofeng.jpg"
+  email: "xiaofeng.zhang@mila.quebec"
+  openreview: "~Zhang_Xiaofeng1"
+  bio: >-
+    Zhang Xiaofeng is a Ph.D. student at Université de Montréal and Mila, advised by Aaron Courville,
+    and recently completed a visiting research position at Meta FAIR. His research focuses on
+    generative modeling and representation learning, particularly how generative models can better
+    represent and learn the structure of real visual data. More broadly, his research aims to advance
+    visual intelligence by grounding generative models in the statistical structure, diversity, and
+    physical regularities of the visual world. His work has appeared at ICLR, NeurIPS, CVPR, and EMNLP.
+    He is also an organizer of the World Modeling Workshop and co-organizes the Mila World Models
+    Reading Group.
+
+- name: "Michal Drozdzal"
+  affiliation: "Meta FAIR"
+  url: "https://scholar.google.com/citations?user=XK_ktwQAAAAJ&hl=en"
+  img: "assets/img/michal_drozdzal.jpg"
+  email: "mdrozdzal@meta.com"
+  openreview: "~Michal_Drozdzal1"
+  bio: >-
+    Michal Drozdzal is a Research Scientist at Meta's Fundamental AI Research lab. His research sits
+    at the intersection of vision generative models and representation learning. His work has appeared
+    at ICLR, NeurIPS, ICML, CVPR, and ICCV and has been cited more than 14k times. He regularly serves
+    as Area Chair and reviewer for top venues. He co-organized the ReGenAI workshop at CVPR (2024–2025)
+    and served as a senior Program Chair for the 2024 Montreal AI Symposium. He earned his Ph.D. from
+    the University of Barcelona under Petia Radeva.
+
+- name: "Ye Zhu"
+  affiliation: "CNRS / École Polytechnique / Institut Polytechnique de Paris"
+  url: "https://l-yezhu.github.io/"
+  img: "assets/img/ye_zhu.jpg"
+  email: "ye.zhu@polytechnique.edu"
+  openreview: "~Ye_Zhu3"
+  bio: >-
+    Ye Zhu is an Assistant Professor and Principal Investigator at the Department of Computer Science
+    and the Laboratoire d'Informatique (LIX) at École Polytechnique. Her research focuses on generative
+    models and computer vision, with applications to multimodal learning and physical systems, as well
+    as sampling and control techniques for fine-grained generation. Her work has appeared at NeurIPS,
+    ICML, ICLR, CVPR, ECCV, and ICCV, and she has served as an Area Chair for major conferences.
+    She is an ELLIS member and Hi!Paris Chair. Before joining École Polytechnique in 2025, she was a
+    postdoctoral researcher at Princeton University. She co-organizes ReGenAI (CVPR 2024–2025) and
+    CV4Science (CVPR 2025–2026).
+
+- name: "Nicolas Ballas"
+  affiliation: "AMI Labs"
+  url: "https://scholar.google.com/citations?user=euUV4iUAAAAJ&hl=en"
+  img: "assets/img/nicolas_ballas.jpg"
+  email: "nicolas.ballas@amilabs.xyz"
+  openreview: "~Nicolas_Ballas1"
+  bio: >-
+    Nicolas Ballas is a researcher at AMI Labs, where he works on end-to-end world models. He spent the
+    previous decade at Meta FAIR, where he was a core contributor to JEPA research, including I-JEPA,
+    V-JEPA, and V-JEPA 2, a family of self-supervised models that predict in latent space and have
+    demonstrated physical understanding and planning from video alone. His broader work spans
+    self-supervised representation learning, video understanding, and the scaling of predictive
+    architectures.
+
+- name: "Felix Friedrich"
+  affiliation: "Black Forest Labs"
+  url: "https://scholar.google.com/citations?user=RfM9ud0AAAAJ&hl=en"
+  img: "assets/img/felix_friedrich.jpg"
+  email: "felix@blackforestlabs.ai"
+  openreview: "~Felix_Friedrich1"
+  bio: >-
+    Felix Friedrich is a Researcher at Black Forest Labs in Freiburg, Germany, where he conducts
+    fundamental research on generative multimodal models, with a focus on RL post-training, robotics,
+    and AI safety. His work centers on advancing these systems and ensuring their responsible
+    deployment. Previously, he was a postdoctoral researcher at Meta FAIR in Montreal, working on
+    RL post-training for generative models and V-JEPA as a physics reward model.

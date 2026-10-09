@@ -1,0 +1,38 @@
+- name: Visual Reasoning
+  description: >-
+    Do current systems reason about the visual world or exploit distributional shortcuts?
+    Can a system that reasons well in language transfer that capacity to visual inference?
+    What would purely visual reasoning look like in the absence of language scaffolding?
+
+- name: Evaluation and Benchmarking
+  description: >-
+    Existing benchmarks were designed for single-task models. What tasks, metrics, and protocols
+    are needed to evaluate whether a system's visual capabilities are genuinely unified,
+    i.e., mutually consistent and grounded, rather than separately capable?
+    What would a "visual Turing test" for emergence look like?
+
+- name: Video Generative Models
+  description: >-
+    Generative models as a probe for understanding: if a model can generate physically plausible,
+    temporally coherent video, does that imply an internal world model? What failure modes reveal
+    the absence of genuine understanding beneath surface-level generation quality?
+
+- name: Latent World Models
+  description: >-
+    World models that operate over learned representations, e.g., JEPA-style approaches, have already
+    demonstrated physics understanding and the ability to solve tasks through planning. Yet these
+    approaches remain prone to representation collapse, and while several losses have been proposed
+    to prevent it, no consensus has emerged. How latent world models behave at scale also remains
+    an open question.
+
+- name: Unified Multimodal Architectures
+  description: >-
+    Joint models over perception, language, and generation: which architectural choices are necessary
+    conditions for enabling emergence of widely applicable visual intelligence?
+    What does the gap between current unified models and human visual cognition reveal?
+
+- name: Visual Perception and Cognition for Robotics
+  description: >-
+    Vision-Language-Action models provide a unique testbed: physical grounding exposes failures that
+    purely perceptual or generative evaluations miss. Does embodiment accelerate or constrain the
+    path toward unified visual intelligence?
