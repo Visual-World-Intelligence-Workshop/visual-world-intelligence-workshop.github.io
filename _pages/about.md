@@ -108,6 +108,39 @@ html[data-theme="dark"] body {
 {% endif %}
 </style>
 
+<script>
+(() => {
+  const backgrounds = {
+    light: {{ site.data.workshop.backgrounds.light | relative_url | jsonify }},
+    dark: {{ site.data.workshop.backgrounds.dark | relative_url | jsonify }}
+  };
+  const preloadAlternateBackground = async () => {
+    const theme = document.documentElement.dataset.theme === "dark" ? "dark" : "light";
+    const current = new Image();
+    current.src = backgrounds[theme];
+    try {
+      await current.decode();
+    } catch (_) {
+      // Still cache the alternate if the current background fails to load.
+    }
+    const alternate = new Image();
+    alternate.fetchPriority = "low";
+    alternate.src = backgrounds[theme === "dark" ? "light" : "dark"];
+    try {
+      await alternate.decode();
+    } catch (_) {
+      // The theme's CSS can retry the image when it is needed.
+    }
+    window.workshopBackgroundImages = [current, alternate];
+  };
+  if (document.readyState === "complete") {
+    preloadAlternateBackground();
+  } else {
+    window.addEventListener("load", preloadAlternateBackground, { once: true });
+  }
+})();
+</script>
+
 {% endif %}
 
 <p class="desc">{{ site.data.workshop.status }} at {{ site.data.workshop.conference }} &bull; Date and venue to be announced</p>

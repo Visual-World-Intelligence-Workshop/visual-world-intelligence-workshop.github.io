@@ -13,7 +13,7 @@ submission:
   reviewers: "2–3"
   contributed_talks: 4
 backgrounds:
-  light: "" # Later: assets/img/background-light.jpg
+  light: "assets/img/background-light.png"
   dark: "assets/img/background-dark.jpg"
 abstract: >-
   As large language models continue to demonstrate increasing capabilities across a broad variety
