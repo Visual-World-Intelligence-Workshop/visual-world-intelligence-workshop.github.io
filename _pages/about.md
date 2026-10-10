@@ -245,4 +245,4 @@ We are committed to an inclusive and welcoming environment for participants from
 
 Contact the organizing team at [{{ site.data.workshop.contact }}](mailto:{{ site.data.workshop.contact }}).
 
-We thank Robert Geirhos and Priyank Jaini for inspiring and helping initiate this workshop.
+We thank Robert Geirhos and Priyank Jaini for inspiring this workshop.
