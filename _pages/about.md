@@ -189,6 +189,8 @@ Our organizing team brings together academic and industrial researchers at diffe
 {% endfor %}
 </div>
 
+<img src="{{ '/assets/img/organizer-logos-2027.png' | relative_url }}" alt="Organizer affiliations: Anates Labs, Mila, Meta, CNRS, TUM, AMI Labs, Black Forest Labs, Université de Montréal, École Polytechnique, and McGill University" width="1550" height="495" loading="lazy" decoding="async" style="display: block; width: 100%; height: auto; margin: 1.5rem auto 2rem; background: #fff;">
+
 ---
 
 ### Participation
@@ -209,3 +211,5 @@ Read the [Call for Papers]({{ '/call/' | relative_url }}) and [planned program](
 We are committed to an inclusive and welcoming environment for participants from all backgrounds. The organizers, speakers, and panelists span academic institutions, industrial labs, and startups, with a range of nationalities, gender identities, expertise, and career stages. Their expertise includes visual reasoning, generative and latent world models, and robotics. We aim to support broad participation, diverse discussion, and collaborations across the visual intelligence community.
 
 Contact the organizing team at [{{ site.data.workshop.contact }}](mailto:{{ site.data.workshop.contact }}).
+
+We thank Robert Geirhos and Priyank Jaini for inspiring and helping initiate this workshop.

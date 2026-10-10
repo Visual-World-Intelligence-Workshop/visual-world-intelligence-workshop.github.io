@@ -10,6 +10,35 @@ workshop_archive="${workshop_root}/output/github-pages-source.zip"
 
 command -v gh >/dev/null
 command -v git >/dev/null
+
+configure_pages() {
+  local workshop_pages_response
+  workshop_pages_response="$(mktemp /private/tmp/workshop-pages-response.XXXXXX)"
+  if ! gh api --method PUT "repos/${workshop_target}/pages" -f build_type=workflow >"$workshop_pages_response" 2>&1; then
+    if ! grep -q 'HTTP 404' "$workshop_pages_response"; then
+      cat "$workshop_pages_response" >&2
+      return 1
+    fi
+    if ! gh api --method POST "repos/${workshop_target}/pages" -f build_type=workflow >"$workshop_pages_response" 2>&1; then
+      # Pages may have been automatically enabled immediately after the push.
+      if grep -q 'HTTP 409' "$workshop_pages_response"; then
+        gh api --method PUT "repos/${workshop_target}/pages" -f build_type=workflow >/dev/null
+      else
+        cat "$workshop_pages_response" >&2
+        return 1
+      fi
+    fi
+  fi
+  rm -f "$workshop_pages_response"
+}
+
+if [[ "${1:-}" == "--configure-only" ]]; then
+  configure_pages
+  gh workflow run deploy.yml --repo "$workshop_target" --ref main
+  echo "Pages uses GitHub Actions. Deployment started: https://github.com/${workshop_target}/actions"
+  exit 0
+fi
+
 if [[ ! -f "$workshop_archive" ]]; then
   echo "Missing source archive: $workshop_archive" >&2
   exit 1
@@ -43,11 +72,7 @@ git commit -m "Publish Visual World Intelligence workshop website"
 git remote add origin "https://github.com/${workshop_target}.git"
 git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push -u origin main
 
-if gh api "repos/${workshop_target}/pages" >/dev/null 2>&1; then
-  gh api --method PUT "repos/${workshop_target}/pages" -f build_type=workflow >/dev/null
-else
-  gh api --method POST "repos/${workshop_target}/pages" -f build_type=workflow >/dev/null
-fi
+configure_pages
 
 echo
 echo "Uploaded source: https://github.com/${workshop_target}"

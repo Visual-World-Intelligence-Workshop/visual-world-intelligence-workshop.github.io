@@ -32,67 +32,69 @@ More specifically, the workshop will cover the following topics:
 
 **Visual Perception and Cognition for Robotics.** Vision-Language-Action models provide a unique testbed: physical grounding exposes failures that purely perceptual or generative evaluations miss. Does embodiment accelerate or constrain the path toward unified visual intelligence?
 
-## Invited Speakers and Panelists
+## Planned Speakers and Panelists
 
-### Invited Speakers
+All listed speakers and panelists have confirmed their interest in participating in the proposed workshop.
+
+### Planned Speakers
 
 The expertise of the speakers spans important areas covered by the workshop proposal, namely world modeling, robotics, perception, visual generation, and foundation models. Detailed biographies of all speakers are provided below.
 
 #### Prof. Sherry Yang
 
-OpenReview: [~Sherry_Yang1](https://openreview.net/profile?id=~Sherry_Yang1). **Confirmed.**
+OpenReview: [~Sherry_Yang1](https://openreview.net/profile?id=~Sherry_Yang1).
 
 Sherry Yang is an Assistant Professor at NYU Courant and a Staff Research Scientist at Google DeepMind. Her research is in machine learning with a focus on reinforcement learning and generative modeling. Recently, she is interested in problems at the intersection of foundation models and decision making, such as learning world models and agents, and their applications in robotics and AI for science. Prior to this, she was a postdoctoral researcher at Stanford working with Percy Liang. Sherry obtained her Ph.D. from UC Berkeley advised by Pieter Abbeel, and her B.S. and M.Eng. from MIT.
 
 #### Prof. Yuki Asano
 
-OpenReview: [~Yuki_M_Asano1](https://openreview.net/profile?id=~Yuki_M_Asano1). **Confirmed.**
+OpenReview: [~Yuki_M_Asano1](https://openreview.net/profile?id=~Yuki_M_Asano1).
 
 Yuki Asano is the head of the Fundamental AI (FunAI) Lab and full Professor at the University of Technology Nuremberg. Prior to this, he led the QUVA lab at the University of Amsterdam, where he closely collaborated with Qualcomm AI Research. Prof. Asano completed his Ph.D. at the Visual Geometry Group (VGG) at the University of Oxford, where he worked with Andrea Vedaldi and Christian Rupprecht.
 
 #### Dr. Lucas Beyer
 
-OpenReview: [~Lucas_Beyer1](https://openreview.net/profile?id=~Lucas_Beyer1). **Confirmed.**
+OpenReview: [~Lucas_Beyer1](https://openreview.net/profile?id=~Lucas_Beyer1).
 
 Lucas grew up in Belgium wanting to make video games and their AI. He went on to study mechanical engineering at RWTH Aachen in Germany, where he also did a Ph.D. in robotic perception and computer vision. He later joined Google Brain in Zürich, which became part of Google DeepMind, and then helped start OpenAI's Zürich office. He is now at Meta in Zürich, where he continues to research multimodal AI.
 
 #### Prof. Olga Russakovsky
 
-OpenReview: [~Olga_Russakovsky1](https://openreview.net/profile?id=~Olga_Russakovsky1). **Confirmed.**
+OpenReview: [~Olga_Russakovsky1](https://openreview.net/profile?id=~Olga_Russakovsky1).
 
 Olga Russakovsky is an Associate Professor in the Computer Science Department at Princeton University. Her research is in computer vision, closely integrated with the fields of machine learning, human-computer interaction, and fairness, accountability and transparency. She has been awarded the PAMI Young Researcher Award, the NSF CAREER award, AnitaB.org's Emerging Leader Abie Award in honor of Denice Denton, the CRA-WP Anita Borg Early Career Award, the MIT Technology Review's 35-under-35 Innovator award, the PAMI Everingham Prize, and the Foreign Policy Magazine's 100 Leading Global Thinkers award. In addition to her research, she co-founded and continues to serve on the Board of Directors of the AI4ALL nonprofit dedicated to increasing diversity and inclusion in Artificial Intelligence (AI). She completed her Ph.D. at Stanford University and her postdoctoral fellowship at Carnegie Mellon University. She served as program chair for ECCV 2024.
 
-### Panelists
+### Planned Panelists
 
 The expertise of the proposed panelists spans topics covered in this workshop, from perception and multimodal foundation models to world models and robotics. Detailed biographies of all panelists are provided below.
 
 #### Prof. Georgia Gkioxari
 
-OpenReview: [~Georgia_Gkioxari1](https://openreview.net/profile?id=~Georgia_Gkioxari1). **Confirmed.**
+OpenReview: [~Georgia_Gkioxari1](https://openreview.net/profile?id=~Georgia_Gkioxari1).
 
 Georgia Gkioxari is an Assistant Professor in the Computing & Mathematical Sciences department at Caltech. Previously, she was a research scientist at Meta's FAIR team. She completed her Ph.D. at UC Berkeley with Jitendra Malik and her undergraduate studies at NTUA, Greece, where she worked with Petros Maragos. Georgia is a Packard Fellow (2025), the recipient of the PAMI Young Researcher Award (2021), a Google Faculty Award (2024), the Okawa Research Award (2024), and the Amazon Research Award (2024). Her teammates and she received the PAMI Mark Everingham Award (2021) for the Detectron Library Suite. She was named one of 30 influential women advancing AI in 2019 by ReWork and was nominated for the Women in AI Awards in 2020 by VentureBeat.
 
 #### Dr. Akshara Rai
 
-OpenReview: [~Akshara_Rai1](https://openreview.net/profile?id=~Akshara_Rai1). **Confirmed.**
+OpenReview: [~Akshara_Rai1](https://openreview.net/profile?id=~Akshara_Rai1).
 
 Akshara Rai is a co-founder and Chief Scientist at Versor, tackling some of the fundamental challenges in robotics through real2sim2real. Previously, she was a research scientist at Meta AI, working at the intersection of machine learning and control for robotics. Her research aims at teaching robots to perform complex, novel tasks in very few trials, by utilizing simulators, physics-based models, or demonstration data. Before joining Meta AI, she finished her Ph.D. at the Robotics Institute, Carnegie Mellon University in 2018, working with Prof. Christopher G. Atkeson on utilizing simulations to learn locomotion on bipedal robots.
 
 #### Dr. Terrance DeVries
 
-OpenReview: [~Terrance_DeVries1](https://openreview.net/profile?id=~Terrance_DeVries1). **Confirmed.**
+OpenReview: [~Terrance_DeVries1](https://openreview.net/profile?id=~Terrance_DeVries1).
 
 Terrance DeVries is a founding research scientist at Luma AI, where he works on advancing the capabilities of visual AI and bringing new technologies into practical use. He has contributed to some of the earliest applications of NeRF-based 3D capture, mobile neural rendering, 3D asset generation, and diffusion transformer-based video generation. His recent work includes developing HDR video generation for Luma AI's Ray3 model and exploring foundation models for robotics and spatial intelligence. He received his Ph.D. from the University of Guelph, where he was advised by Prof. Graham Taylor.
 
 #### Dr. Bill Peebles
 
-OpenReview: [~William_Peebles1](https://openreview.net/profile?id=~William_Peebles1). **Confirmed.**
+OpenReview: [~William_Peebles1](https://openreview.net/profile?id=~William_Peebles1).
 
 Bill Peebles is a former research scientist at OpenAI, where he headed Sora, OpenAI's video generation and world simulation effort. Previously, he completed his Ph.D. at Berkeley AI Research advised by Alyosha Efros. Before that, he did his undergraduate studies at MIT, where he was advised by Antonio Torralba. He has interned at FAIR, Adobe Research, and NVIDIA. During his Ph.D., he was supported by the National Science Foundation's Graduate Research Fellowship Program.
 
 #### Dr. Jenny Seidenschwarz
 
-OpenReview: [~Jenny_Seidenschwarz1](https://openreview.net/profile?id=~Jenny_Seidenschwarz1). **Confirmed.**
+OpenReview: [~Jenny_Seidenschwarz1](https://openreview.net/profile?id=~Jenny_Seidenschwarz1).
 
 Jenny Seidenschwarz is a Research Scientist at Odyssey, where she specializes in dynamic generative world modeling for physical AI. Her research focuses on action-conditioned, multimodal world modeling as well as multi-agent reinforcement learning. Recently, she is interested in in-the-loop training of agents with world models and enhancing the world models' underlying reasoning capabilities. Prior to her current role, she completed her Ph.D. at TUM advised by Dr. Laura Leal-Taixé, with research visits at CMU with Prof. Deva Ramanan and at NVIDIA.
 
@@ -190,9 +192,9 @@ We anticipate that diversity among organizers, speakers, and panelists will prov
 
 ## Related Workshops
 
-Visual intelligence research has largely advanced along two closely related but often separately organized directions: visual understanding and visual generation. On the understanding side, workshops such as OpenSUN3D: Workshop on Open-World 3D Scene Understanding and Representations (ECCV 2026) and the Workshop on 3D Scene Understanding for Vision, Graphics, and Robotics (CVPR 2026) focus on visual perception, spatial representations, and scene understanding. On the generation side, workshops such as the 4th Workshop on Generative Models for Computer Vision (CVPR 2026) and Visual Generative Modeling: What's After Diffusion? (CVPR 2025) explore advances in generative architectures and visual synthesis. While these directions are increasingly interacting, our proposed workshop takes a broader, complementary perspective. Rather than treating understanding and generation as ends in themselves, we aim to explore how they can jointly enable visual world intelligence: models that build grounded, temporally coherent representations of the world, predict how it evolves, and use these predictions to support reasoning, planning, and interaction.
+Visual intelligence research has largely advanced along two closely related but often separately organized directions: visual understanding and visual generation. On the understanding side, workshops such as [OpenSUN3D: Workshop on Open-World 3D Scene Understanding and Representations](https://opensun3d.github.io/) (ECCV 2026) and the [Workshop on 3D Scene Understanding for Vision, Graphics, and Robotics](https://scene-understanding.com/) (CVPR 2026) focus on visual perception, spatial representations, and scene understanding. On the generation side, workshops such as the [4th Workshop on Generative Models for Computer Vision](https://generative-vision.github.io/workshop-CVPR-26/) (CVPR 2026) and [Visual Generative Modeling: What's After Diffusion?](https://vgm-cvpr.github.io/) (CVPR 2025) explore advances in generative architectures and visual synthesis. While these directions are increasingly interacting, our proposed workshop takes a broader, complementary perspective. Rather than treating understanding and generation as ends in themselves, we aim to explore how they can jointly enable visual world intelligence: models that build grounded, temporally coherent representations of the world, predict how it evolves, and use these predictions to support reasoning, planning, and interaction.
 
-Building on these developments, recent workshops have increasingly explored visual intelligence, multimodal reasoning, and world models from complementary perspectives. The ICLR 2025 and ICLR 2026 World Models: Understanding, Modelling and Scaling workshops focused on learning, scaling, and applying world models, while the ICLR 2026 workshop on Multimodal Intelligence: Next Token Prediction and Beyond explored different modeling paradigms for multimodal foundation models. NeurIPS 2025 also featured several reasoning workshops (e.g., Foundations of Reasoning in Language Models, Efficient Reasoning, and Multimodal Algorithmic Reasoning), which primarily emphasized reasoning in language and multimodal models rather than reasoning through vision-first generative and predictive models. At CVPR 2026, Visual General Intelligence explored the role of vision in the path toward general intelligence. More closely related, the ECCV 2026 workshops UniWorld and MUCG explored unified visual representations and architectures that integrate perception, reasoning, generation, and interaction, as well as synergistic learning between understanding and generation. Other workshops, including Reliable and Interactable World Models (ICCV 2025), World Models in the Loop (ECCV 2026), and the planned World Models in Physical AI workshop (NeurIPS 2026), emphasize physical consistency, interactivity, evaluation, and downstream decision making.
+Building on these developments, recent workshops have increasingly explored visual intelligence, multimodal reasoning, and world models from complementary perspectives. The [ICLR 2025](https://sites.google.com/view/worldmodel-iclr2025/) and [ICLR 2026](https://sites.google.com/view/iclr-2026-workshop-world-model/home) World Models: Understanding, Modelling and Scaling workshops focused on learning, scaling, and applying world models, while the ICLR 2026 workshop on [Multimodal Intelligence: Next Token Prediction and Beyond](https://mmintelligence.github.io/) explored different modeling paradigms for multimodal foundation models. NeurIPS 2025 also featured several reasoning workshops (e.g., [Foundations of Reasoning in Language Models](https://reasoning-workshop.github.io/), [Efficient Reasoning](https://efficient-reasoning.github.io/), and [Multimodal Algorithmic Reasoning](https://marworkshop.github.io/neurips25/)), which primarily emphasized reasoning in language and multimodal models rather than reasoning through vision-first generative and predictive models. At CVPR 2026, [Visual General Intelligence](https://cvpr2026-vgi-workshop.limitlab.xyz/) explored the role of vision in the path toward general intelligence. More closely related, the ECCV 2026 workshops [UniWorld](https://uniworld-ai.github.io/) and [MUCG](https://mllm-mucg.github.io/ECCV2026/) explored unified visual representations and architectures that integrate perception, reasoning, generation, and interaction, as well as synergistic learning between understanding and generation. Other workshops, including [Reliable and Interactable World Models](https://riwm-2025.github.io/RIWM-2025/) (ICCV 2025), [World Models in the Loop](https://eccv26woop.github.io/) (ECCV 2026), and the planned [World Models in Physical AI](https://www.worldmodels-physicalai.com/) workshop (NeurIPS 2026), emphasize physical consistency, interactivity, evaluation, and downstream decision making.
 
 While visual understanding and generation have achieved impressive progress, success in these individual tasks does not necessarily imply that a model has acquired generalizable knowledge of the physical world. Such knowledge should support reasoning about physical dynamics and facilitate transferring learned capabilities to unfamiliar situations. Building on previous efforts of the community, our workshop focuses on a distinct scientific question: Does integrating different visual capabilities lead to genuinely generalizable visual world intelligence, or merely combine task-specific competencies within a single architecture?
 
@@ -260,7 +262,7 @@ To attract an audience and drive attendance, we will adopt a multi-channel adver
 
 **Social media:** We will create dedicated social media accounts and coordinate posts with topic teasers, important announcements, countdowns, and submission links.
 
-**Networks:** We will post about the event on relevant mailing lists (e.g., ELLIS, WiML, Machine Learning News, and heidelberg.ai, with 3,000 members), relevant community groups, and Slack channels to increase awareness and engagement. We will partner with collaborators, speakers, and related institutions to share posts ahead of the event.
+**Networks:** We will post about the event on relevant mailing lists (e.g., [ELLIS](https://ellis.eu), [WiML](https://www.wiml.org/), Machine Learning News, and [heidelberg.ai](http://heidelberg.ai), with 3,000 members), relevant community groups, and Slack channels to increase awareness and engagement. We will partner with collaborators, speakers, and related institutions to share posts ahead of the event.
 
 ## Nominated Reviewer
 

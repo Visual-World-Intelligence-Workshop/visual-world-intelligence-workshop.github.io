@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+workshop_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+workshop_repo="Visual-World-Intelligence-Workshop/visual-world-intelligence-workshop.github.io"
+workshop_checkout="$(mktemp -d /private/tmp/workshop-flash-talks.XXXXXX)"
+
+git -c credential.helper= -c 'credential.helper=!gh auth git-credential' clone \
+  --depth 1 --branch main "https://github.com/${workshop_repo}.git" "$workshop_checkout"
+workshop_files=(
+  _data/schedule.yml
+  _data/panelists.yml
+  assets/img/organizer-logos-2027.png
+  assets/img/organizer-logos-2027.svg
+  _pages/about.md
+  _pages/program.md
+  _pages/call.md
+  docs/workshop-proposal.md
+  docs/proposal-content-review.md
+  docs/iclr-2027-workshop-submission.md
+  docs/iclr-2027-workshop-submission.tex
+  docs/iclr-2027-guidelines-review.md
+  README.md
+)
+for workshop_file in "${workshop_files[@]}"; do
+  mkdir -p "$(dirname "${workshop_checkout}/${workshop_file}")"
+  cp "${workshop_root}/${workshop_file}" "${workshop_checkout}/${workshop_file}"
+done
+cd "$workshop_checkout"
+git add -- "${workshop_files[@]}"
+if git diff --cached --quiet; then
+  echo "The workshop updates are already uploaded."
+  exit 0
+fi
+git commit -m "Update workshop schedule, proposal, and in-person format"
+git -c credential.helper= -c 'credential.helper=!gh auth git-credential' push origin main
+echo "Uploaded. GitHub Pages will rebuild automatically."
+echo "https://visual-world-intelligence-workshop.github.io/program/"

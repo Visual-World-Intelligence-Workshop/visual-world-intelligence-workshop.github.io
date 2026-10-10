@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+workshop_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+workshop_endpoint="repos/Visual-World-Intelligence-Workshop/visual-world-intelligence-workshop.github.io/contents/assets/img/nicolas_ballas.jpg"
+workshop_current_sha="$(gh api "$workshop_endpoint" --jq .sha)"
+workshop_portrait="${workshop_root}/assets/img/nicolas_ballas.jpg"
+workshop_local_sha="$(git hash-object "$workshop_portrait")"
+
+if [[ "$workshop_local_sha" == "$workshop_current_sha" ]]; then
+  echo "The correct Nicolas Ballas portrait is already uploaded."
+  exit 0
+fi
+
+workshop_payload="$(mktemp /private/tmp/workshop-portrait.XXXXXX)"
+trap 'rm -f "$workshop_payload"' EXIT
+python3 - "$workshop_portrait" "$workshop_current_sha" "$workshop_payload" <<'PY'
+import base64
+import json
+import sys
+from pathlib import Path
+
+portrait, sha, payload = sys.argv[1:]
+Path(payload).write_text(json.dumps({
+    "message": "Correct Nicolas Ballas portrait",
+    "sha": sha,
+    "branch": "main",
+    "content": base64.b64encode(Path(portrait).read_bytes()).decode(),
+}))
+PY
+GH_PAGER=cat gh api --method PUT "$workshop_endpoint" --input "$workshop_payload" --jq .commit.html_url
+echo "Portrait uploaded. GitHub Pages will rebuild automatically."
+echo "Website: https://visual-world-intelligence-workshop.github.io/"
